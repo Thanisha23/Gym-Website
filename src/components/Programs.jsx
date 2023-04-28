@@ -1,10 +1,11 @@
+import { FaCrown } from "react-icons/fa";
+import SectionalHead from "./SectionalHead";
+
 const Programs = () => {
   return (
     <section className="programs">
       <div className="container programs-container">
-        <div className="programs__head">
-          <span></span>
-        </div>
+        <SectionalHead icon={<FaCrown />} title="Programs" />
       </div>
     </section>
   );
